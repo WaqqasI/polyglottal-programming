@@ -311,3 +311,5 @@ Iris:
 # Notes
 
 This document is written in *R Markdown*, which is a plain text markup language that combines traditional Markdown with \LaTeX, code engines, and the R data science language.
+
+Source code for this document can be found at <https://github.com/WaqqasI/polyglottal-programming/blob/master/polyglottal.Rmd>
