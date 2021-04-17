@@ -100,7 +100,7 @@ end
 ## PHP
 
 ```{php}
-$n = _$_POST["Num"]
+$n = $_POST["Num"]
 
 for ($i = 1; $i <= $n; $i++) {
   $res = ""
