@@ -307,3 +307,7 @@ Iris:
     - 0.2
     - 0.4
 ```
+
+# Notes
+
+This document is written in *R Markdown*, which is a plain text markup language that combines traditional Markdown with \LaTeX, code engines, and the R data science language.
