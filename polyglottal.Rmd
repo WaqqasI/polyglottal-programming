@@ -96,6 +96,21 @@ for i = 1, n, 1 do
   io.write(res)
 end
 ```
+
+## PHP
+
+```{php}
+$n = _$_POST["Num"]
+
+for ($i = 1; $i <= $n; $i++) {
+  $res = ""
+  if ($i % 3 === 0) {$res += "Fizz"}
+  if ($i % 5 === 0) {$res += "Buzz"}
+  if ($res === "") {$res = i}
+  echo $res
+}
+```
+
 ## C Programing Language
 
 ```{c}
