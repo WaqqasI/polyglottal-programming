@@ -1,5 +1,5 @@
 ---
-title: "Polyglottal Programing"
+title: "Polyglottal Programming"
 author: "Waqqas Ibrahim"
 ---
 
@@ -30,7 +30,7 @@ FizzBuzz(15)
 ```{javascript}
 const FizzBuzz = (n) => {
   for (let i = 0; i <= n; i++) {
-    const res = (n % 3 == 0 ? 'Fizz' : '') + (n % 5 == 0 ? 'Buzz' : '')
+    const res = (i % 3 == 0 ? 'Fizz' : '') + (i % 5 == 0 ? 'Buzz' : '')
     if (res) console.log(res)
   }
 }
@@ -40,7 +40,7 @@ const FizzBuzz = (n) => {
 ```{typescript}
 function FizzBuzz(n: number): void {
   for (let i: number = 0; i <= n; i++) {
-    const res: string = (n % 3 == 0 ? 'Fizz' : '') + (n % 5 == 0 ? 'Buzz' : '')
+    const res: string = (i % 3 == 0 ? 'Fizz' : '') + (i % 5 == 0 ? 'Buzz' : '')
     if (res) console.log(res)
   }
 }
